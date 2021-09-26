@@ -1,0 +1,11 @@
+[parity]
+chain = "espuma"
+keys_path = "./keys"
+[account]
+# unlock = ["<signer address>"]
+# password = ["./password"]
+[mining]
+# engine_signer = "<signer address>"
+reseal_on_txs = "none"
+force_sealing = true
+min_gas_price = 100000000
