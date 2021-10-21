@@ -1,11 +1,16 @@
 [parity]
-chain = "espuma"
+chain = "ecoball"
+base_path = "./data"
 keys_path = "./keys"
 [account]
+fast_unlock = true
 # unlock = ["<signer address>"]
 # password = ["./password"]
 [mining]
 # engine_signer = "<signer address>"
 reseal_on_txs = "none"
 force_sealing = true
-min_gas_price = 100000000
+min_gas_price = 1000000000
+gas_floor_target = "40000000"
+reseal_min_period = 1000
+tx_time_limit = 1000

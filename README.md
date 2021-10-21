@@ -1,2 +1,2 @@
 # validator
-Validator for espuma Testnet
+Example configuration for ecoball validator
