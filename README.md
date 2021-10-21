@@ -1,2 +1,2 @@
-# validator
-Example configuration for ecoball validator
+# For validators
+Example configuration for ecoball validators
